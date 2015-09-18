@@ -30,3 +30,13 @@ social:
     url: https://github.com/tzolkin
   - title: linkedin
     url: https://mx.linkedin.com/in/fzavala
+mentions:
+  - title: angelHack
+    url: http://angelhack.com/ah8-meets-mexico-city/
+    image: angelhack.png
+  - title: master card
+    url: https://developer.mastercard.com/portal/display/blogs/2015/08/02/Meet+the+Developers+-+Mexico+City
+    image: mastercard.png
+  - title: El Financiero
+    url: http://www.elfinanciero.com.mx/universidades/app-para-contratar-mudanzas-lleva-mexicanos-a-silicon-valley.html
+    image: financiero.png

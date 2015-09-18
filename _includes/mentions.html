@@ -1,0 +1,25 @@
+<a name="mentions"></a>
+<div class="mentions">
+  <div class="container">
+    <div class="row center">
+      <div class="col-lg-12">
+        <ul class="list-inline">
+          {% for mention in site.mentions %}
+          <li>
+            <div class="col-sm-2">
+              <a href="{{ mention.url }}" class="btn btn-default btn-lg">
+                <!-- <i class="fa fa-{{ social.title }} fa-fw"></i>
+                <span class="network-name">{{ social.title }}</span> -->
+                <img src="/img/mentions/{{ mention.image }}" alt="{{ mention.title }}">
+              </a>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.banner -->
